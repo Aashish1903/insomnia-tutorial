@@ -1,0 +1,26 @@
+_id: env_d2429f8a1f8e4608862ccb2b140b9ea6
+type: Environment
+parentId: env_112b4c064570340a4b9f76adc7a22beb38ead654
+modified: 1720084797083
+created: 1720084723004
+name: localDev
+data:
+  scheme: http
+  base_path: ""
+  host: localhost:3000
+  apikey: apikey
+  bearerToken: bearerToken
+  base_url: "{{ _.host }}"
+  id: b88f7029-fa93-41a5-9462-4884e544bf63
+dataPropertyOrder:
+  "&":
+    - scheme
+    - base_path
+    - host
+    - apikey
+    - bearerToken
+    - base_url
+    - id
+color: "#c0c309"
+isPrivate: false
+metaSortKey: 1720084723004

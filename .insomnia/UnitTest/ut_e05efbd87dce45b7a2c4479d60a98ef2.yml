@@ -1,0 +1,16 @@
+_id: ut_e05efbd87dce45b7a2c4479d60a98ef2
+type: UnitTest
+parentId: uts_f36b9a7a3caf41288bba8bce4b0a06b6
+modified: 1720086514300
+created: 1720086453269
+requestId: req_c462cfa318ec4dc4a5b923f896ba88bd
+name: Validate JSON response
+code: >
+  const response1 = await insomnia.send();
+
+  expect(response1.status).to.equal(200);
+
+  const body = JSON.parse(response1.data);
+
+  expect(body).to.have.all.keys('source', 'senderName', 'destination', 'amount', 'currency', 'subject', 'id');
+metaSortKey: -1720086453269

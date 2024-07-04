@@ -1,10 +1,10 @@
-_id: req_6d44dae1164d42ce854582d304338bde
+_id: req_3581d2e1c1ef4f51ab28621cb5937601
 type: Request
-parentId: fld_aaf5916e97f848368cf9a40952f7eabc
-modified: 1700564215292
-created: 1700564206378
-url: "{{ _.base_url }}/transactions/123456"
-name: Failed Request
+parentId: fld_c7126e885f2949c78b16d639bbea0b89
+modified: 1720085333432
+created: 1720084686886
+url: "{{ _.base_url }}/transactions"
+name: List all transactions
 description: ""
 method: GET
 body: {}
@@ -16,7 +16,7 @@ authentication:
   value: "{{ _.apikey }}"
   addTo: header
 preRequestScript: null
-metaSortKey: -1700563894967
+metaSortKey: -1720084686886
 isPrivate: false
 pathParameters: null
 afterResponseScript: null

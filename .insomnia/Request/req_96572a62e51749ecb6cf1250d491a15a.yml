@@ -1,8 +1,8 @@
-_id: req_e03447bd3e864ae1bb4a96eb8caf5b54
+_id: req_96572a62e51749ecb6cf1250d491a15a
 type: Request
-parentId: fld_aaf5916e97f848368cf9a40952f7eabc
-modified: 1700563894966
-created: 1700563894966
+parentId: fld_c7126e885f2949c78b16d639bbea0b89
+modified: 1720084863206
+created: 1720084686897
 url: "{{ _.base_url }}/transactions"
 name: Create new transaction
 description: ""
@@ -19,18 +19,29 @@ body:
       "currency": "EUR",
       "subject": "Invoice #42-08/15"
     }
-parameters: []
+parameters:
+  - id: pair_b7f0e7ae371c4b98b12bd233f111be8c
+    name: foo
+    value: bar
+    description: ""
+    disabled: false
 headers:
   - name: Content-Type
     disabled: false
     value: application/json
+    id: pair_9bd6d4a2e6864fc7bb7c19ea97606581
+  - id: pair_5f204a5cd6da4d74a8773860f7524c34
+    name: custom
+    value: custom-value
+    description: ""
+    disabled: false
 authentication:
   type: apikey
   key: apikey
   value: "{{ _.apikey }}"
   addTo: header
 preRequestScript: null
-metaSortKey: -1700563894966
+metaSortKey: -1720084686897
 isPrivate: false
 pathParameters: null
 afterResponseScript: null

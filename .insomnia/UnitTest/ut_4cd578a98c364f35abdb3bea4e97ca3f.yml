@@ -1,0 +1,11 @@
+_id: ut_4cd578a98c364f35abdb3bea4e97ca3f
+type: UnitTest
+parentId: uts_f36b9a7a3caf41288bba8bce4b0a06b6
+modified: 1720086245593
+created: 1720086220314
+requestId: req_3581d2e1c1ef4f51ab28621cb5937601
+name: List all transaction 200
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(200);
+metaSortKey: -1720086220314

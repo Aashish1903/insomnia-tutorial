@@ -1,0 +1,11 @@
+_id: ut_63d8fa80c48c4defbbf60cbba4d260b2
+type: UnitTest
+parentId: uts_f36b9a7a3caf41288bba8bce4b0a06b6
+modified: 1720086276504
+created: 1720086252618
+requestId: req_c462cfa318ec4dc4a5b923f896ba88bd
+name: Get Specific transaction 200
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(200);
+metaSortKey: -1720086252618

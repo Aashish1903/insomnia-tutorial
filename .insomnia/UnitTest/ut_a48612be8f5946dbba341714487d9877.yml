@@ -1,0 +1,11 @@
+_id: ut_a48612be8f5946dbba341714487d9877
+type: UnitTest
+parentId: uts_f36b9a7a3caf41288bba8bce4b0a06b6
+modified: 1720086335272
+created: 1720086313521
+requestId: req_c3fab42557324916a810c4ed00572959
+name: Get Failed transaction 404
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(404);
+metaSortKey: -1720086313521
